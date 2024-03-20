@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2018-09-16T8:00:00+4:30
-title: Sample Lecture
+title: Linear Regression
 tldr: "Short text to discribe what this lecture is about."
 thumbnail: /static_files/presentations/lec.jpg
 links: 
@@ -14,4 +14,11 @@ links:
 ---
 **Suggested Readings:**
 - [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+
+
+# Linear Regression 
+
+## Definition
+
+-   A statistical model which estimates the linear relationship between a number of explanatory variables and a response variable.
+
