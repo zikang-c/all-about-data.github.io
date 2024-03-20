@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul id="archive">
+{% for lecture in site.lectures %}
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    {% if lecture.thumbnail %}
+    <div class="thumbnail">
+    </div>
+    {% endif %}
+
+    <div class="sidebar">
+        <a href="#linear_regression.html">Linear Regression</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    
+      <div class="content">
+    </div>
+  
